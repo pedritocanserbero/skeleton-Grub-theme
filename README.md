@@ -16,12 +16,10 @@ Se cambió el fondo y algunos colores para uso personal.
    sudo cp -r skeleton-Grub-theme /boot/grub/themes/
 
 2. Editar /etc/default/grub y agregue o modificar la línea:
- ```bash
+
  GRUB_THEME="/boot/grub/themes/skeleton-Grub-theme/theme.txt"
 
-
 3. Actualizar GRUB:
- 
  ```bash
  sudo update-grub        # En Debian/Ubuntu
  sudo grub2-mkconfig -o /boot/grub2/grub.cfg  # En Fedora
