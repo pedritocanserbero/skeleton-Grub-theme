@@ -14,3 +14,12 @@ Se cambió el fondo y algunos colores para uso personal.
 
    ```bash
    sudo cp -r skeleton-Grub-theme /boot/grub/themes/
+
+2. Editar /etc/default/grub y agregue o modificar la línea:
+
+3. Actualizar GRUB:
+ ```bash
+sudo update-grub        # En Debian/Ubuntu
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg  # En Fedora
+
+4. Reiniciar y disfrutar del nuevo tema.
