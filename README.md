@@ -12,9 +12,11 @@ Se cambió el fondo y algunos colores para uso personal.
 
    Ejecutar en terminal:
 
-   ```bash
-   sudo cp -r skeleton-Grub-theme /boot/grub/themes/
-   
+    ```bash
+    sudo cp -r normal /boot/grub/themes/
+or
+
+    sudo cp -r with_trans /boot/grub/themes/
 2. Editar /etc/default/grub y agregue o modificar la línea:
 
     GRUB_THEME="/boot/grub/themes/skeleton-Grub-theme/theme.txt"
